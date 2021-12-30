@@ -1,0 +1,26 @@
+.link {
+  color: red;
+}
+
+.headerWrapper {
+  background-color: rgba(255, 255, 255, 0.1);
+  position: sticky;
+  backdrop-filter: blur(5px);
+  padding: 10px 0;
+  top: 0;
+}
+
+header {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+}
+
+.item ~ .item {
+  margin-left: 50px;
+}
